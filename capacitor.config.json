@@ -1,0 +1,34 @@
+{
+  "appId": "com.riserival.app",
+  "appName": "Rise Rival",
+  "webDir": "www",
+  "server": {
+    "url": "https://riserival.netlify.app",
+    "allowNavigation": [
+      "riserival.netlify.app",
+      "clubrival.netlify.app",
+      "restrival.netlify.app",
+      "*.supabase.co"
+    ],
+    "errorPath": "offline.html"
+  },
+  "ios": {
+    "contentInset": "never",
+    "scheme": "RiseRival"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 600,
+      "launchFadeOutDuration": 200,
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "DARK"
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon",
+      "iconColor": "#ff9a3d"
+    }
+  }
+}

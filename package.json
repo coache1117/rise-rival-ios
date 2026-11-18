@@ -1,0 +1,20 @@
+{
+  "name": "rise-rival-ios",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rise Rival iPhone app (Capacitor wrapper for https://riserival.netlify.app)",
+  "scripts": {
+    "ios": "bash scripts/ios-setup.sh"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.2.0",
+    "@capacitor/ios": "^8.2.0",
+    "@capacitor/preferences": "^8.0.0",
+    "@capacitor/status-bar": "^8.0.0",
+    "@capacitor/splash-screen": "^8.0.0",
+    "@capacitor/local-notifications": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.2.0"
+  }
+}
